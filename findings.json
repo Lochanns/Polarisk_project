@@ -1,0 +1,220 @@
+{
+  "finding_count": 6,
+  "findings": [
+    {
+      "evidence": {
+        "account_id": "ACC-1001",
+        "finding_type": "structuring",
+        "transaction_count": 4,
+        "combined_amount": "52500",
+        "reporting_threshold": "50000",
+        "window_start": "2026-01-06T08:00:00",
+        "window_end": "2026-01-06T17:00:00",
+        "window_hours": "9.0",
+        "transactions": [
+          {
+            "txn_id": "T1000",
+            "amount": "14800",
+            "timestamp": "2026-01-06T08:00:00"
+          },
+          {
+            "txn_id": "T1001",
+            "amount": "13200",
+            "timestamp": "2026-01-06T11:00:00"
+          },
+          {
+            "txn_id": "T1002",
+            "amount": "12900",
+            "timestamp": "2026-01-06T14:00:00"
+          },
+          {
+            "txn_id": "T1003",
+            "amount": "11600",
+            "timestamp": "2026-01-06T17:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1001 was flagged for structuring. Four transactions were recorded within a nine\u2011hour window on 2026\u201101\u201106, from 08:00 to 17:00. The transactions, identified as T1000, T1001, T1002, and T1003, had amounts of 14,800; 13,200; 12,900; and 11,600 respectively, totaling 52,500, which exceeds the reporting threshold of 50,000."
+    },
+    {
+      "evidence": {
+        "account_id": "ACC-1002",
+        "finding_type": "structuring",
+        "transaction_count": 3,
+        "combined_amount": "52300",
+        "reporting_threshold": "50000",
+        "window_start": "2026-01-13T08:00:00",
+        "window_end": "2026-01-15T00:00:00",
+        "window_hours": "40.0",
+        "transactions": [
+          {
+            "txn_id": "T1004",
+            "amount": "18000",
+            "timestamp": "2026-01-13T08:00:00"
+          },
+          {
+            "txn_id": "T1005",
+            "amount": "17500",
+            "timestamp": "2026-01-14T04:00:00"
+          },
+          {
+            "txn_id": "T1006",
+            "amount": "16800",
+            "timestamp": "2026-01-15T00:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1002 has been flagged for structuring. Three transactions were identified within a 40\u2011hour window from 2026\u201101\u201113T08:00:00 to 2026\u201101\u201115T00:00:00, with a combined amount of 52,300. The individual transactions are T1004 for 18,000 at 2026\u201101\u201113T08:00:00, T1005 for 17,500 at 2026\u201101\u201114T04:00:00, and T1006 for 16,800 at 2026\u201101\u201115T00:00:00, exceeding the reporting threshold of 50,000."
+    },
+    {
+      "evidence": {
+        "account_id": "ACC-1003",
+        "finding_type": "structuring",
+        "transaction_count": 5,
+        "combined_amount": "51100",
+        "reporting_threshold": "50000",
+        "window_start": "2026-01-21T08:00:00",
+        "window_end": "2026-01-23T00:00:00",
+        "window_hours": "40.0",
+        "transactions": [
+          {
+            "txn_id": "T1007",
+            "amount": "11000",
+            "timestamp": "2026-01-21T08:00:00"
+          },
+          {
+            "txn_id": "T1008",
+            "amount": "10500",
+            "timestamp": "2026-01-21T18:00:00"
+          },
+          {
+            "txn_id": "T1009",
+            "amount": "9800",
+            "timestamp": "2026-01-22T04:00:00"
+          },
+          {
+            "txn_id": "T1010",
+            "amount": "10200",
+            "timestamp": "2026-01-22T14:00:00"
+          },
+          {
+            "txn_id": "T1011",
+            "amount": "9600",
+            "timestamp": "2026-01-23T00:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1003 has been flagged for structuring. Five transactions were recorded between 2026\u201101\u201121T08:00:00 and 2026\u201101\u201123T00:00:00, totaling 51,100, which exceeds the reporting threshold of 50,000. The transactions are: T1007 for 11,000 at 2026\u201101\u201121T08:00:00, T1008 for 10,500 at 2026\u201101\u201121T18:00:00, T1009 for 9,800 at 2026\u201101\u201122T04:00:00, T1010 for 10,200 at 2026\u201101\u201122T14:00:00, and T1011 for 9,600 at 2026\u201101\u201123T00:00:00. The window spans 40.0 hours."
+    },
+    {
+      "evidence": {
+        "account_id": "ACC-1004",
+        "finding_type": "structuring",
+        "transaction_count": 4,
+        "combined_amount": "52600",
+        "reporting_threshold": "50000",
+        "window_start": "2026-01-29T14:00:00",
+        "window_end": "2026-01-30T14:00:00",
+        "window_hours": "24.0",
+        "transactions": [
+          {
+            "txn_id": "T1013",
+            "amount": "13500",
+            "timestamp": "2026-01-29T14:00:00"
+          },
+          {
+            "txn_id": "T1014",
+            "amount": "12800",
+            "timestamp": "2026-01-29T22:00:00"
+          },
+          {
+            "txn_id": "T1015",
+            "amount": "14100",
+            "timestamp": "2026-01-30T06:00:00"
+          },
+          {
+            "txn_id": "T1016",
+            "amount": "12200",
+            "timestamp": "2026-01-30T14:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1004 has four transactions within a 24\u2011hour window from 2026\u201101\u201129T14:00:00 to 2026\u201101\u201130T14:00:00, with a combined amount of 52,600, which exceeds the reporting threshold of 50,000. The transactions are T1013 for 13,500 at 2026\u201101\u201129T14:00:00, T1014 for 12,800 at 2026\u201101\u201129T22:00:00, T1015 for 14,100 at 2026\u201101\u201130T06:00:00, and T1016 for 12,200 at 2026\u201101\u201130T14:00:00."
+    },
+    {
+      "evidence": {
+        "account_id": "ACC-1005",
+        "finding_type": "structuring",
+        "transaction_count": 3,
+        "combined_amount": "51300",
+        "reporting_threshold": "50000",
+        "window_start": "2026-02-05T08:00:00",
+        "window_end": "2026-02-06T14:00:00",
+        "window_hours": "30.0",
+        "transactions": [
+          {
+            "txn_id": "T1017",
+            "amount": "17000",
+            "timestamp": "2026-02-05T08:00:00"
+          },
+          {
+            "txn_id": "T1018",
+            "amount": "16500",
+            "timestamp": "2026-02-05T23:00:00"
+          },
+          {
+            "txn_id": "T1019",
+            "amount": "17800",
+            "timestamp": "2026-02-06T14:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1005 has been flagged for structuring. Three transactions were recorded within a 30\u2011hour window from 2026\u201102\u201105T08:00:00 to 2026\u201102\u201106T14:00:00, with a combined amount of 51,300. The individual transactions are T1017 for 17,000 at 2026\u201102\u201105T08:00:00, T1018 for 16,500 at 2026\u201102\u201105T23:00:00, and T1019 for 17,800 at 2026\u201102\u201106T14:00:00. The combined amount exceeds the reporting threshold of 50,000."
+    },
+    {
+      "evidence": {
+        "account_id": "ACC-1006",
+        "finding_type": "structuring",
+        "transaction_count": 6,
+        "combined_amount": "57700",
+        "reporting_threshold": "50000",
+        "window_start": "2026-02-12T08:00:00",
+        "window_end": "2026-02-14T05:00:00",
+        "window_hours": "45.0",
+        "transactions": [
+          {
+            "txn_id": "T1020",
+            "amount": "9500",
+            "timestamp": "2026-02-12T08:00:00"
+          },
+          {
+            "txn_id": "T1021",
+            "amount": "9800",
+            "timestamp": "2026-02-12T17:00:00"
+          },
+          {
+            "txn_id": "T1022",
+            "amount": "9200",
+            "timestamp": "2026-02-13T02:00:00"
+          },
+          {
+            "txn_id": "T1023",
+            "amount": "9900",
+            "timestamp": "2026-02-13T11:00:00"
+          },
+          {
+            "txn_id": "T1024",
+            "amount": "9600",
+            "timestamp": "2026-02-13T20:00:00"
+          },
+          {
+            "txn_id": "T1025",
+            "amount": "9700",
+            "timestamp": "2026-02-14T05:00:00"
+          }
+        ]
+      },
+      "analyst_narrative_non_authoritative": "The account ACC-1006 has six transactions totaling 57,700 within a 45\u2011hour window from 2026\u201102\u201112T08:00:00 to 2026\u201102\u201114T05:00:00, exceeding the reporting threshold of 50,000. The transactions are: T1020 for 9,500 at 2026\u201102\u201112T08:00:00, T1021 for 9,800 at 2026\u201102\u201112T17:00:00, T1022 for 9,200 at 2026\u201102\u201113T02:00:00, T1023 for 9,900 at 2026\u201102\u201113T11:00:00, T1024 for 9,600 at 2026\u201102\u201113T20:00:00, and T1025 for 9,700 at 2026\u201102\u201114T05:00:00."
+    }
+  ]
+}
